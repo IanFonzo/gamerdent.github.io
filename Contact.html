@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="styles/style.css"> <!-- Link to your CSS file -->
+</head>
+
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">GamerDent</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cs2.html">Counter-Strike</a></li>
+        <li><a href="apex.html">Apex</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <head>
+    <title>Contact Us</title>
+    <style>
+      /* Basic styling for demonstration purposes */
+     
+      .contact-form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .contact-form label,
+      .contact-form textarea,
+      .contact-form input[type="text"],
+      .contact-form input[type="email"] {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .contact-form textarea {
+        resize: vertical;
+        min-height: 100px;
+      }
+      .contact-form input[type="submit"] {
+        padding: 10px;
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+      <br>
+      <h1 class="form-header">Contact Us</h1>
+      <br>
+  
+    <form class="contact-form" action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+  
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" required></textarea>
+      <br>
+  <div class="submit-button">
+      <input type="submit" value="Submit">
+    </div> 
+    </form>
+  
+  </body>
+  <footer class="footer">
+    <!-- Footer content goes here -->
+    <p>&copy; 2023 GamerDent. All rights reserved.</p>
+  </footer>
+</body>
+</html>

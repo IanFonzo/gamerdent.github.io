@@ -1,0 +1,184 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+.header {
+  background-color: #222; /* Example color */
+  color: #fff; /* Example color */
+  padding: 20px;
+}
+
+.navbar {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff; /* Example color */
+}
+
+/* Styling for the main content */
+.main-content {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Styling for the footer */
+.footer {
+  background-color: #222; /* Example color */
+  color: #fff; /* Example color */
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style for the container holding the image and text */
+.image-with-text {
+  position: relative;
+  width: 100%;
+  max-width: 2000px; /* Adjust according to your image size */
+  margin-right: 0 auto;
+}
+
+/* Style for the text overlay */
+.text-overlay {
+  position: absolute;
+  top: 88%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #fff; /* Text color */
+  text-decoration: none;
+}
+
+.text-overlay2 {
+  position: absolute;
+  top: 84%;
+  right: 20.5%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #fff; /* Text color */
+  
+}
+
+.text-overlay h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-size: 18px;
+}
+
+.text-overlay2 h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.text-overlay2 p {
+  font-size: 18px;
+}
+
+.topic-header {
+  display: flex;
+}
+
+.topic-header h1 {
+  padding-left: 480px; 
+  font-size: 22px;
+}
+
+.text-overlay3 {
+  position: absolute;
+  top: 84%;
+  right: 22%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #fff; /* Text color */
+  
+}
+
+.text-overlay3 h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.text-overlay3 p {
+  font-size: 18px;
+}
+
+.text-overlayconduit {
+  position: absolute;
+  top: 84%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #fff; /* Text color */
+  
+}
+
+.text-overlayconduit h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.text-overlayconduit p {
+  font-size: 18px;
+}
+
+.centered-form {
+  width: 50%; /* Set the width of the form */
+  margin: 0 auto; /* Set left and right margins to 'auto' to horizontally center the form */
+  text-align: center; /* Center-align text within the form */
+}
+
+.form-header {
+  text-align: center; /* Center-aligns the text within the h1 */
+  margin: 0; /* Resetting default margin */
+}
+
+.submit-button {
+  text-align: center; /* Center-aligns the content */
+}
+
+.image1 img {
+  position: absolute; /* Positions the image relative to its closest positioned ancestor */
+  top: 675px; /* Adjust the distance from the top */
+  left: 529px; /* Adjust the distance from the left */
+}
+
+.image2 img {
+  position: absolute; /* Positions the image relative to its closest positioned ancestor */
+  top: 845px; /* Adjust the distance from the top */
+  left: 529px; /* Adjust the distance from the left */
+}
+.wrapper
+{
+background-color: #white;
+width: 1800px; 
+margin-right: auto; 
+margin-left: auto;
+}

@@ -1,0 +1,76 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the header */
+  .header {
+    background-color: #222; /* Example color */
+    color: #fff; /* Example color */
+    padding: 20px;
+  }
+  
+  .navbar {
+      
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff; /* Example color */
+  }
+  
+  /* Styling for the article */
+  .article-container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .article {
+    background-color: #f9f9f9; /* Example color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .article-meta {
+    font-size: 14px;
+    color: #555; /* Example color */
+    margin-bottom: 15px;
+  }
+  
+  .article-content {
+    line-height: 1.6;
+  }
+  
+  /* Styling for the footer */
+  .footer {
+    background-color: #222; /* Example color */
+    color: #fff; /* Example color */
+    text-align: center;
+    padding: 10px;
+  }
+  
