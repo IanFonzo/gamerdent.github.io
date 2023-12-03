@@ -65,12 +65,11 @@
 
 /* Style for the text overlay */
 .text-overlay {
-  position: absolute;
-  top: 88%;
-  left: 33%;
-  transform: translate(-50%, -50%);
+  position: relative; 
+  top: 465px;
+  left: 500px;
   text-align: left;
-  color: #fff; /* Text color */
+  color: rgb(255, 255, 255); /* Text color */
   text-decoration: none;
 }
 
@@ -174,11 +173,4 @@
   position: absolute; /* Positions the image relative to its closest positioned ancestor */
   top: 845px; /* Adjust the distance from the top */
   left: 529px; /* Adjust the distance from the left */
-}
-.wrapper
-{
-background-color: #white;
-width: 1800px; 
-margin-right: auto; 
-margin-left: auto;
 }
