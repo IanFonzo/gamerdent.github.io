@@ -72,5 +72,13 @@
     color: #fff; /* Example color */
     text-align: center;
     padding: 10px;
+    
   }
+  
+  .about-us-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
   

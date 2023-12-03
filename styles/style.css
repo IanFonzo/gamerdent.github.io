@@ -13,7 +13,7 @@
 }
 
 .navbar {
-  
+    
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,13 +46,14 @@
 
 /* Styling for the footer */
 .footer {
+  
   background-color: #222; /* Example color */
   color: #fff; /* Example color */
   text-align: center;
   padding: 10px;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width:100%;
 }
 
 /* Style for the container holding the image and text */
@@ -65,21 +66,20 @@
 
 /* Style for the text overlay */
 .text-overlay {
-  position: relative; 
-  top: 465px;
-  left: 500px;
+  position: absolute; 
+  top: 400px;
+  left: 430px;
   text-align: left;
   color: rgb(255, 255, 255); /* Text color */
-  text-decoration: none;
+  
 }
 
 .text-overlay2 {
   position: absolute;
-  top: 84%;
-  right: 20.5%;
-  transform: translate(-50%, -50%);
+  top: 365px;
+  right: 520px;
   text-align: left;
-  color: #fff; /* Text color */
+  color: rgb(255, 255, 255); /* Text color */
   
 }
 
@@ -106,15 +106,14 @@
 }
 
 .topic-header h1 {
-  padding-left: 480px; 
+  padding-left: 430px; 
   font-size: 22px;
 }
 
 .text-overlay3 {
   position: absolute;
-  top: 84%;
-  right: 22%;
-  transform: translate(-50%, -50%);
+  top: 365px;
+  right: 532px;
   text-align: left;
   color: #fff; /* Text color */
   
@@ -131,9 +130,8 @@
 
 .text-overlayconduit {
   position: absolute;
-  top: 84%;
-  left: 34%;
-  transform: translate(-50%, -50%);
+  top: 365px;
+  left: 430px;
   text-align: left;
   color: #fff; /* Text color */
   
@@ -165,12 +163,83 @@
 
 .image1 img {
   position: absolute; /* Positions the image relative to its closest positioned ancestor */
-  top: 675px; /* Adjust the distance from the top */
-  left: 529px; /* Adjust the distance from the left */
+  top: 680px; /* Adjust the distance from the top */
+  left: 480px; /* Adjust the distance from the left */
 }
 
-.image2 img {
-  position: absolute; /* Positions the image relative to its closest positioned ancestor */
-  top: 845px; /* Adjust the distance from the top */
-  left: 529px; /* Adjust the distance from the left */
+
+.image-text h3 {
+  position: absolute;
+  top: 679px;
+  left: 750px;
 }
+
+.image-text p {
+  position: absolute;
+  top: 717px;
+  left: 750px;
+}
+
+.image-text p2 {
+  position: absolute;
+  top: 752px;
+  left: 750px;
+  color: red;
+}
+
+.image-text p3 {
+  position: absolute;
+  top: 752px;
+  left: 830px;
+}
+
+.image-text p4 {
+  position: absolute;
+  top: 785px;
+  left: 750px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .image-home img{
+    position: absolute; /* Positions the image relative to its closest positioned ancestor */
+    top: 645px; /* Adjust the distance from the top */
+    left: 480px; /* Adjust the distance from the left */
+  }
+
+  .image-text-home h3 {
+    position: absolute;
+    top: 644px;
+    left: 750px;
+  }
+  
+  .image-text-home p {
+    position: absolute;
+    top: 682px;
+    left: 750px;
+  }
+  
+  .image-text-home p2 {
+    position: absolute;
+    top: 717px;
+    left: 750px;
+    color: red;
+  }
+  
+  .image-text-home p3 {
+    position: absolute;
+    top: 717px;
+    left: 830px;
+  }
+  
+  .image-text-home p4 {
+    position: absolute;
+    top: 750px;
+    left: 750px;
+    }
+
+
+
+
