@@ -67,7 +67,7 @@
 /* Style for the text overlay */
 .text-overlay {
   position: absolute; 
-  top: 400px;
+  top: 405px;
   left: 430px;
   text-align: left;
   color: rgb(255, 255, 255); /* Text color */
